@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DemoQA]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.InfluxDBListener"/>
+  </listeners>
+  <test thread-count="5" name="Store(failed)">
+    <classes>
+      <class name="com.demoqa.store.tests.BuyMagicMouseTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="addMagicMouseToCart"/>
+          <include name="enterBillingDetails"/>
+          <include name="confirmMagicMouseInCart"/>
+          <include name="confirmOrder"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.demoqa.store.tests.BuyMagicMouseTest -->
+    </classes>
+  </test> <!-- Store(failed) -->
+</suite> <!-- Failed suite [DemoQA] -->

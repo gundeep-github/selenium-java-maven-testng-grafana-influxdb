@@ -1,0 +1,7 @@
+.classpath
+.metadata/
+.project
+.settings/
+allure-results/
+target/
+chromedriver.exe

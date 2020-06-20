@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DemoQA">
+	<listeners>
+		<listener class-name="utilities.InfluxDBListener" />
+	</listeners>
+
+	<test name="Store">
+		<classes>
+			<class name="com.demoqa.store.tests.BuyMagicMouseTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

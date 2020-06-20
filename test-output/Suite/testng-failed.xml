@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.demoqa.store.tests.BuyMagicMouseTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="addMagicMouseToCart"/>
+          <include name="enterBillingDetails"/>
+          <include name="confirmMagicMouseInCart"/>
+          <include name="confirmOrder"/>
+          <include name="navigateToAccessoriesPage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.demoqa.store.tests.BuyMagicMouseTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
